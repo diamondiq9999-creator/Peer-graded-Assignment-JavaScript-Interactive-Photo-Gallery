@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Animal Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img src="images/Panda.jpg" alt="Cute Panda" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+        <img src="images/Lion.jpg" alt="Wild Lion" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+        <img src="images/Dolphin.jpg" alt="Friendly Dolphin" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
